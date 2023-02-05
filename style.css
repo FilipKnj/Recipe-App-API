@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  background-color: #cc8800;
+}
+
+.container {
+  width: 500px;
+  background-color: #fff;
+  position: absolute;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  left: 50%;
+  top: 1em;
+  padding: 2rem 1.5rem;
+  border-radius: 10px;
+  -webkit-box-shadow: 7px 7px 15px -1px rgba(0, 0, 0, 0.56);
+          box-shadow: 7px 7px 15px -1px rgba(0, 0, 0, 0.56);
+}
+
+.search-div {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.search-div input {
+  width: 75%;
+  padding-left: 0.5rem;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #000;
+}
+.search-div button {
+  width: 22%;
+  height: 40px;
+  background-color: #cc8800;
+  color: #000;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+#mealImg {
+  display: block;
+  width: 50%;
+  margin: 20px auto;
+}
+
+#instructions {
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  padding: 2.5em 1.2em 1.2em 1.2em;
+}
+
+.recipe {
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  border-radius: 10px;
+  z-index: 2;
+  display: none;
+}
+
+#hide-recipe {
+  font-size: 1em;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-color: #cc8800;
+  border: none;
+  top: 1.2em;
+  left: 90%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.details {
+  background: #cc8800;
+  text-align: center;
+  position: relative;
+  margin: -5rem 0 0 0;
+  padding: 10px 0;
+}
+.details h4 {
+  font-weight: 300;
+}
+
+#show-recipe {
+  position: relative;
+  top: 1rem;
+  left: 74%;
+  padding: 0.5em 1rem;
+  border: none;
+  outline: none;
+  background-color: #cc8800;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+ul {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 1.1em auto;
+  grid-template-columns: auto auto;
+  gap: 0.8em 1.1em;
+  padding: 1rem 0 0 1rem;
+}
+
+h3 {
+  text-align: center;
+  margin: 20px auto;
+}
